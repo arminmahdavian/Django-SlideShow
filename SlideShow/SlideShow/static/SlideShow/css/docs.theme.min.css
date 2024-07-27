@@ -11277,9 +11277,20 @@ p {
 }
 
 #demos .owl-carousel .item {
-    height: 10rem;
-    background: #4DC7A0;
-    padding: 1rem
+    height: initial;
+    background: initial;
+    padding: initial;
+    position: relative;
+    cursor: pointer;
+}
+
+#demos .owl-carousel .item p {
+    position: absolute;
+    bottom: -20px;
+    background-color: #626262;
+    width: 100%;
+    color: #fff;
+    padding: 5px;
 }
 
 #demos .owl-carousel .item h4 {
@@ -11503,4 +11514,5 @@ pre {
 .hljs-chunk {
     color: #aaa
 }
+
 
